@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{3C93B16D-DC91-44E6-9630-D4AD97514541}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AuthenticationSystem/Data/Migrations/ApplicationDbContextModelSnapshot.cs">
+    <Files>
+      <File FileName="AuthenticationSystem/Program.cs" />
+      <File FileName="AuthenticationSystem/Data/ApplicationDbContext.cs" />
+      <File FileName="AuthenticationSystem/Areas/Identity/Pages/Account/Login.cshtml" />
+      <File FileName="AuthenticationSystem/Areas/Identity/Pages/Account/Manage/Index.cshtml" />
+      <File FileName="AuthenticationSystem/Views/Home/Index.cshtml" />
+      <File FileName="AuthenticationSystem/Data/Migrations/20230914050143_CreateIdentity.cs" />
+      <File FileName="AuthenticationSystem/Controllers/HomeController.cs" />
+      <File FileName="AuthenticationSystem/Areas/Identity/Pages/Account/Login.cshtml.cs" />
+      <File FileName="AuthenticationSystem/Views/Users/Index.cshtml" />
+      <File FileName="AuthenticationSystem/Views/Users/Create.cshtml" />
+      <File FileName="AuthenticationSystem/Views/Users/Edit.cshtml" />
+      <File FileName="AuthenticationSystem/Views/Users/Delete.cshtml" />
+      <File FileName="AuthenticationSystem/appsettings.json" />
+      <File FileName="AuthenticationSystem/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" />
+      <File FileName="AuthenticationSystem/Views/Shared/_Layout.cshtml" />
+      <File FileName="AuthenticationSystem/Views/Shared/_LoginPartial.cshtml" />
+      <File FileName="AuthenticationSystem/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" />
+      <File FileName="AuthenticationSystem/Data/Migrations/20230918110447_InitialCreate.cs" />
+      <File FileName="AuthenticationSystem/Data/Migrations/20230918112003_InitialCreate1.cs" />
+      <File FileName="AuthenticationSystem/Data/SeedData.cs" />
+      <File FileName="AuthenticationSystem/Data/Migrations/ApplicationDbContextModelSnapshot.cs" Line="29" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AuthenticationSystem" expanded="True">
+            <Node name="AuthenticationSystem" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/krishnendhuarun/BroCamp/BCR04/Week9/AuthenticationSystem/AuthenticationSystem/Startup.cs" relfile="AuthenticationSystem/Startup.cs" line="71" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AuthenticationSystem PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

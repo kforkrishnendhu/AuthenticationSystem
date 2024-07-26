@@ -1,0 +1,63 @@
+﻿@model List<Microsoft.AspNetCore.Identity.IdentityUser>
+
+<h1>User List</h1>
+<style type="text/css">
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        font-family: Arial, sans-serif;
+    }
+
+        /* Table header styles */
+        .table th {
+            background-color: #1a7393;
+            color: #fff;
+            text-align: left;
+            padding: 10px;
+        }
+
+        /* Table row styles */
+        .table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .table tbody td {
+            padding: 10px;
+        }
+
+        /* Action link styles */
+        .table a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+            .table a:hover {
+                text-decoration: underline;
+                color: #0056b3;
+            }
+</style>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@user.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@user.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Create New User</a>
